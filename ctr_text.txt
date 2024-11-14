@@ -1,1 +1,19 @@
-Sample text file is created
+my_num = input("*****Enter any integer number > 0: ")
+if int(my_num) <= 0:
+  print("Enter the valid integer number")
+elif int(my_num) > 0:
+  y=0
+  for i in my_num:
+    x=int(i)
+    y=y+x #" #Stage_1"
+  b=0
+  z=str(y)
+  for i in z:
+    x=int(i)
+    b=b+x #Stage_2"
+  c=str(b)
+  d=0
+  for i in c:
+    x=int(i)
+    d=d+x #Stage_3"
+  print(" The sum of the given number is: ",d)
